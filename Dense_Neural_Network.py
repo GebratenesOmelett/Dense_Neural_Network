@@ -9,11 +9,6 @@ import tensorflow
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
-print(X_train.shape)
-print(X_test.shape)
-print(y_train.shape)
-print(y_train.shape)
-
 import matplotlib.pyplot as plt
 
 X_train = X_train.reshape(60000, 28*28) 
